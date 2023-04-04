@@ -1,4 +1,4 @@
-module github.com/rbcervilla/redisstore/v9
+module github.com/vkumov/redisstore/v9
 
 go 1.17
 
