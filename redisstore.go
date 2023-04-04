@@ -7,12 +7,13 @@ import (
 	"encoding/base32"
 	"encoding/gob"
 	"errors"
-	"github.com/go-redis/redis/v9"
-	"github.com/gorilla/sessions"
 	"io"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/gorilla/sessions"
+	"github.com/redis/go-redis/v9"
 )
 
 // RedisStore stores gorilla sessions in Redis
