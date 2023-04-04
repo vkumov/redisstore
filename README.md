@@ -23,7 +23,7 @@ package main
 
 import (
     "context"
-    "github.com/go-redis/redis/v9"
+    "github.com/redis/go-redis/v9"
     "github.com/gorilla/sessions"
     "github.com/rbcervilla/redisstore/v9"
     "log"
